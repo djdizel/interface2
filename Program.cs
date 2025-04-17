@@ -10,6 +10,11 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            DerivedClass dClass = new DerivedClass();
+            dClass.Method1();
+            dClass.Method2();
+            dClass.Method3();
+
         }
     }
 }
