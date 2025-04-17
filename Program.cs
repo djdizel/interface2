@@ -10,6 +10,11 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            MyClass myClass = new MyClass(25);
+            Console.WriteLine(myClass.PI());
+            Console.WriteLine(myClass.Int());
+            Console.WriteLine(myClass.Pow());
+            Console.WriteLine(myClass.Sqrt());
         }
     }
 }
