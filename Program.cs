@@ -10,6 +10,10 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            Person myClass = new Person();
+            Console.WriteLine(myClass.Method() + myClass.Method4());
+            Console.WriteLine(myClass.Method2() + myClass.Method5());
+            Console.WriteLine(myClass.Method3() + myClass.Method6());
         }
     }
 }
